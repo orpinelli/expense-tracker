@@ -1,16 +1,5 @@
 ## New Branch
 
-git branch -m main master
-
-git fetch origin
-
-git branch -u origin/master master
-
-git remote set-head origin -a
-
-
-OR
-
 git checkout -b 'name branch'
 
 git add .
