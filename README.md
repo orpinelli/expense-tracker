@@ -8,6 +8,19 @@ git branch -u origin/master master
 
 git remote set-head origin -a
 
+
+OR
+
+git checkout -b 'name branch'
+
+git add .
+
+git commit -m ' '
+
+git push
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
