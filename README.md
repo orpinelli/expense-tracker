@@ -1,3 +1,13 @@
+## New Branch
+
+git branch -m main master
+
+git fetch origin
+
+git branch -u origin/master master
+
+git remote set-head origin -a
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -46,9 +56,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-## New Branch
 
-git branch -m main master
-git fetch origin
-git branch -u origin/master master
-git remote set-head origin -a
