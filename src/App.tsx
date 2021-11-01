@@ -1,8 +1,15 @@
+import * as S from './App.styled'
+
 const App = () =>{
   return(
-    <div>
-      Ola
-    </div>
+    <S.Container>
+      <S.Header>  
+         <S.HeaderText> Sistema Financeiro </S.HeaderText>
+      </S.Header>
+      <S.Body>
+          
+      </S.Body>
+    </S.Container>
   ); 
 }
 
